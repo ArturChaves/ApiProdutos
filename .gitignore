@@ -1,0 +1,67 @@
+## Ignore build results
+bin/
+obj/
+out/
+.vs/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+
+## Visual Studio Code
+.vscode/
+
+## ASP.NET Core
+wwwroot/
+appsettings.*.json
+appsettings.Local.json
+secrets.json
+
+## Logs
+*.log
+logs/
+Log/
+
+## Package management
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+## Docker
+**/Dockerfile
+**/docker-compose.*
+docker-compose.override.yml
+.env
+
+## Migrations (opcional, se não quiser versionar elas)
+# Migrations/
+
+## OS-specific
+.DS_Store
+Thumbs.db
+
+## EF Core
+**/Migrations/*Designer.cs
+**/Migrations/*Snapshot.cs
+
+## Tests
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+## Backup
+*.bak
+*.old
+*.tmp
+
+## Tools
+*.vspscc
+_ReSharper*/
+_TeamCity*/
